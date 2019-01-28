@@ -26,7 +26,12 @@ export class OlderCoaster extends Component {
 }
 
 export class InFrontOfYou extends Component {
-  // your code here
+  render() {
+    return (
+      <p>You shouldn't look too far.</p>
+      <p>Sometimes, the solution is right in front of you.</p>
+  )
+  }
 }
 
 export class ButcherShop extends Component {
