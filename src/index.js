@@ -35,7 +35,16 @@ export class InFrontOfYou extends Component {
 }
 
 export class ButcherShop extends Component {
-  // your code here
+  render() {
+    return (
+        <div className="butcher-shop">
+        <p>Hello! We have the following products for sale today:</p>
+        <ul>
+          { products }
+        </ul>
+      </div>
+      )
+  }
 }
 
 
