@@ -35,7 +35,7 @@ export class InFrontOfYou extends Component {
 }
 
 export class ButcherShop extends Component {
-  const products = BUTCHER_PRODUCTS.map((p, idx) => (<li key={idx}>{p}</li>))
+  const products = {BUTCHER_PRODUCTS}.map((p, idx) => (<li key={idx}>{p}</li>))
   render() {
     return (
         <div className="butcher-shop">
