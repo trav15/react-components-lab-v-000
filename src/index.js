@@ -12,9 +12,14 @@ const BUTCHER_PRODUCTS = [
 export class OlderCoaster extends Component {
   render() {
     return (
-      <>
-        
-      </p>
+      <div className="oldercoaster">
+        <p>Two grannies having the time of their life!</p>
+        <p>Passengers:</p>
+        <ul>
+          <li>Agnes</li>
+          <li>Muriel</li>
+        </ul>
+      </div>
     )
   }
  
